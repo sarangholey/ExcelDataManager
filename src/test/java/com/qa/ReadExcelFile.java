@@ -12,7 +12,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ReadExcelFile {
 
 	public static void main(String[] args) 
-	{
+	{ 
 		try {
 			FileInputStream fis = new FileInputStream("../ReadExcelFile/src/test/resources/TestData/DataSheet.xlsx");
 			XSSFWorkbook workbook = new XSSFWorkbook(fis);
