@@ -29,7 +29,7 @@ public class ReadExcelFile {
 		} catch (IOException e) {
 			System.out.println("Excel File could not able to load properly");
 			e.printStackTrace();
-		}
+		} 
 		
 	}
 
