@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44882" started-at="2019-07-27T08:45:43Z" finished-at="2019-07-27T08:46:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44882" started-at="2019-07-27T08:45:43Z" finished-at="2019-07-27T08:46:28Z">
+      <class name="com.qa.Hubspot">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Hubspot@3532ec19]" name="setup" is-config="true" duration-ms="6133" started-at="2019-07-27T08:45:44Z" finished-at="2019-07-27T08:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Hubspot@3532ec19]" name="test" duration-ms="7050" started-at="2019-07-27T08:45:50Z" data-provider="userdata" finished-at="2019-07-27T08:45:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456!@@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.Hubspot@3532ec19]" name="teardown" is-config="true" duration-ms="2104" started-at="2019-07-27T08:45:57Z" finished-at="2019-07-27T08:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Hubspot@3532ec19]" name="setup" is-config="true" duration-ms="4133" started-at="2019-07-27T08:45:59Z" finished-at="2019-07-27T08:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Hubspot@3532ec19]" name="test" duration-ms="8665" started-at="2019-07-27T08:46:03Z" data-provider="userdata" finished-at="2019-07-27T08:46:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456798@#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.Hubspot@3532ec19]" name="teardown" is-config="true" duration-ms="71" started-at="2019-07-27T08:46:12Z" finished-at="2019-07-27T08:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Hubspot@3532ec19]" name="setup" is-config="true" duration-ms="3725" started-at="2019-07-27T08:46:12Z" finished-at="2019-07-27T08:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Hubspot@3532ec19]" name="test" duration-ms="12369" started-at="2019-07-27T08:46:16Z" data-provider="userdata" finished-at="2019-07-27T08:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sarangholey@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[92426122.srG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.Hubspot@3532ec19]" name="teardown" is-config="true" duration-ms="66" started-at="2019-07-27T08:46:28Z" finished-at="2019-07-27T08:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.Hubspot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

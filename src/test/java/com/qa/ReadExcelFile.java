@@ -21,6 +21,15 @@ public class ReadExcelFile {
 			Cell cell = row.getCell(0);
 			//System.out.println(row);
 			System.out.println(cell);
+			
+			for(int i=0;i<=sheet.getLastRowNum();i++)
+			{
+				for(int j=0;j<=1;j++)
+				{
+					System.out.print(sheet.getRow(i).getCell(j) + " ");
+				}
+				System.out.println();
+			}
 		}
 		catch (FileNotFoundException e)
 		{
